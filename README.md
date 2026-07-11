@@ -29,7 +29,11 @@ An AI-powered document question-answering system that enables users to upload PD
 - PyTorch
 
 ---
+## 🏗️ Architecture
 
+<p align="center">
+  <img src="assets/flowchart.jpeg" alt="RAG Architecture" width="1000"/>
+</p>
 ## 🏗 Architecture
 
 ```
