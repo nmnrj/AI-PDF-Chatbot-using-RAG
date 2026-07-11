@@ -34,35 +34,6 @@ An AI-powered document question-answering system that enables users to upload PD
 <p align="center">
   <img src="assets/flowchart.jpeg" alt="RAG Architecture" width="1000"/>
 </p>
-## 🏗 Architecture
-
-```
-                    PDF
-                     │
-                     ▼
-              Read PDF
-                     │
-                     ▼
-               Chunking
-                     │
-                     ▼
-        Sentence Embeddings
-                     │
-                     ▼
-             FAISS Index
-                     │
-                     ▼
-         Retrieve Top-k Chunks
-                     │
-                     ▼
-          Prompt Construction
-                     │
-                     ▼
-              FLAN-T5 LLM
-                     │
-                     ▼
-              Generated Answer
-```
 
 ---
 
